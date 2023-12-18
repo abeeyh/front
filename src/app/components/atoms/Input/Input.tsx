@@ -21,6 +21,7 @@ const Input: React.FC<InputProps> = ({
 }) => {
   return (
     <TextField
+      fullWidth
       label={label}
       value={value}
       onChange={onChange}

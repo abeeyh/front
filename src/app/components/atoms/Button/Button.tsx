@@ -3,6 +3,7 @@ import { Button as MuiButton } from '@mui/material';
 
 interface ButtonProps {
   label: string;
+  onClick: () => void;
   variant?: 'contained' | 'outlined' | 'text';
   size?: 'small' | 'medium' | 'large';
   disabled?: boolean;
@@ -13,10 +14,17 @@ const Button: React.FC<ButtonProps> = ({
   label,
   variant,
   disabled,
+  onClick,
   ...props
 }) => {
   return (
-    <MuiButton disabled={disabled} variant={variant || 'contained'} {...props}>
+    <MuiButton
+      fullWidth
+      onClick={onClick}
+      disabled={disabled}
+      variant={variant || 'contained'}
+      {...props}
+    >
       {label}
     </MuiButton>
   );

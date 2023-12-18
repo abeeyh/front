@@ -26,7 +26,7 @@ In the project directory, you can run the following scripts:
 
 ### `npm run dev`
 
-Starts the Next.js application in development mode. The app will be served at `http://localhost:3000` by default, and you'll see any linting errors in the console.
+Starts the Next.js application in development mode. The app will be served at `http://localhost:3001` by default, and you'll see any linting errors in the console.
 
 ### `npm run build`
 
