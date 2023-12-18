@@ -2,6 +2,24 @@
 
 This README document provides an overview of the Frontend Web Project, a Next.js-based application. Below, you will find explanations for the various npm scripts available in the project's `package.json`, as well as details on integrating with the authorization service located at [abeeyh/authorization](https://github.com/abeeyh/authorization).
 
+## Integration with Authorization Service
+
+To integrate with the [abeeyh/authorization](https://github.com/abeeyh/authorization) service, follow these steps:
+
+1. **Clone the Repository**: Clone the authorization service repository.
+
+   ```sh
+   git clone https://github.com/abeeyh/authorization.git
+   ```
+
+2. **Setup the Authorization Service**: Follow the setup instructions provided in the README.md of the abeeyh/authorization repository.
+
+3. **Integrate with Your Next.js App**: Modify your Next.js application to interact with the authorization service. This typically involves setting up API routes or services in your app to communicate with the authorization endpoints.
+
+4. **Environment Variables**: Ensure that any required environment variables for interacting with the authorization service are properly set up in your Next.js project.
+
+5. **Authentication and Authorization Logic**: Implement the necessary authentication and authorization logic in your app, utilizing the abeeyh/authorization service for user authentication, token generation, and verification.
+
 ## Available Scripts
 
 In the project directory, you can run the following scripts:
@@ -43,20 +61,10 @@ These scripts use `standard-version` for automatic versioning and CHANGELOG gene
 - `npm run release:major`: Creates a major version release.
 - `npm run release:patch`: Creates a patch version release.
 
-## Integration with Authorization Service
+## Husky and Conventional Commits Integration
 
-To integrate with the [abeeyh/authorization](https://github.com/abeeyh/authorization) service, follow these steps:
+This project uses Husky and Conventional Commits to enforce high-quality and consistent commit messages, which are crucial for maintainability, readability, and automatic versioning.
 
-1. **Clone the Repository**: Clone the authorization service repository.
+### Husky
 
-   ```sh
-   git clone https://github.com/abeeyh/authorization.git
-   ```
-
-2. **Setup the Authorization Service**: Follow the setup instructions provided in the README.md of the abeeyh/authorization repository.
-
-3. **Integrate with Your Next.js App**: Modify your Next.js application to interact with the authorization service. This typically involves setting up API routes or services in your app to communicate with the authorization endpoints.
-
-4. **Environment Variables**: Ensure that any required environment variables for interacting with the authorization service are properly set up in your Next.js project.
-
-5. **Authentication and Authorization Logic**: Implement the necessary authentication and authorization logic in your app, utilizing the abeeyh/authorization service for user authentication, token generation, and verification.
+Husky is a tool used to enable Git hooks easily. It allows the project to enforce quality checks before commit and push actions. Common uses of Husky include running linters, formatters, and test suites before commits are made to ensure code quality.
