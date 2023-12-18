@@ -1,0 +1,16 @@
+# .github/dependabot.yml
+version: 2
+updates:
+  # Atualizações automáticas para npm (usado tanto em projetos JavaScript quanto TypeScript)
+  - package-ecosystem: "npm"
+    # Diretório do package.json e package-lock.json (raiz do projeto)
+    directory: "/"
+    # Agenda para verificar atualizações (exemplo: semanalmente)
+    schedule:
+      interval: "weekly"
+    # Limite de Pull Requests abertos pelo Dependabot
+    open-pull-requests-limit: 10
+    # Ignorar certas dependências ou versões específicas (se necessário)
+    # ignore:
+    #   - dependency-name: "express"
+    #     versions: ["4.16.4"]
