@@ -1,5 +1,5 @@
 'use client';
-import LoginForm from './components/molecules/LoginForm';
+import LoginForm from './components/molecules/LoginForm/LoginForm';
 // import { ThemeSwitcher } from './providers/ThemeProvider/ThemeProvider';
 import ToggleColorMode from './providers/ThemeProvider/ToggleColorMode';
 

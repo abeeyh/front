@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
-import Button from '../atoms/Button/Button';
-import Input from '../atoms/Input/Input';
+import Button from '../../atoms/Button/Button';
+import Input from '../../atoms/Input/Input';
 import { Box, FormControl } from '@mui/material';
 import { Grid } from '@mui/material';
 // import axios from 'axios';
