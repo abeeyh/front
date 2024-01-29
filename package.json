@@ -23,7 +23,7 @@
     "@mui/material": "^5.15.0",
     "@mui/styled-engine-sc": "^6.0.0-alpha.8",
     "@nextui-org/react": "^2.2.9",
-    "axios": "^1.6.2",
+    "axios": "^1.6.7",
     "framer-motion": "^10.16.16",
     "next": "14.0.4",
     "react": "^18",
